@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  background-color: #151F30;
+  font-family: monospace;
+  backdrop-filter: blur(20px); /* Adiciona um desfoque de 10 pixels ao plano de fundo */
+}
+
+main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgb(136, 16, 16);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.title {
+  color: #fff;
+  font-size: 24px; /* Tamanho de fonte maior */
+  margin-bottom: 30px; /* Mais espaço abaixo do título */
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Mais espaço abaixo dos inputs */
+}
+
+.inputs > p {
+  color: #fff;
+  font-size: 24px; /* Tamanho de fonte maior */
+  margin-bottom: 15px; /* Mais espaço abaixo dos parágrafos */
+  text-align: center; /* Centralizar texto */
+}
+
+.inputs > input {
+  border-radius: 8px; /* Bordas mais arredondadas */
+  height: 40px; /* Altura dos inputs aumentada */
+  width: 100%;
+  max-width: 300px; /* Largura máxima aumentada */
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px; /* Tamanho de fonte maior */
+  border: none;
+  background-color: #fff; /* Fundo branco */
+}
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.button > button {
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background-color: rgb(41, 192, 192);
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button > button:hover {
+  background-color: rgb(35, 158, 158);
+}
+
+.button > button:active {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+}
+
+.active {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#dayjs > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#dayjs > ul > li {
+  margin-top: 5px;
+  font-family: monospace;
+  font-size: 15px;
+  color: #000;
+  text-align: justify, center;
+  padding: 5px 10px;
+}
+
+#lista {
+  padding: 0;
+  margin: 0;
+}
